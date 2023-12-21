@@ -1,0 +1,251 @@
+h1 {
+  color: Green;
+  text-align: center;
+  font-size: 50px;
+}
+p {
+  color: orange;
+}
+li { 
+  color: purple;
+}
+
+#id {
+  color: purple;
+}
+.p-texto {
+  color: pink;
+}
+#titulo-app {
+  color: orange;
+}
+.nome {
+  color: gray;
+}
+.hexa {
+  color: #964b00;
+}
+.rgba {
+  color: rgba(0,0,156);
+}
+.div-backgrounds {
+  background-image: url('img/dedos.jpg');
+  height: 300px;
+}
+
+.titulo-background {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.family {
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+}
+
+.serif {
+  font-family: "Times New Roman";
+}
+
+.san-serif {
+  font-family: "Arial" ;
+}
+
+.monospace {
+  font-family: "Courier New";
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.variant {
+  font-variant: small-caps;
+}
+
+body {
+  margin: 0;
+}
+
+.boxmodel {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /*padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  */
+  padding: 30px 20px;
+  border: 5px solid #000;
+/*  border-width: 5px 20px 5px 20px;
+  border-left: 20px dotted blue;
+  border-right-style: double;*/
+  border-width: 20px 10px;
+  border-radius: 15px;
+  margin: 100px;
+  /* Display mais usados, none(escode) inline-block do (lado), block(a baixo*/
+  display: inline-block;
+  /*Tipos de borda solid, double, dashed, dotted. */
+}
+  /* ou você pode usar padding 10px, 10px, 10px, 10px sentido horário
+  para resumir*/
+  /* Específico para três medidas padding width, left-height, bottom,*/
+  /* Específico de duas medidas padding width-bottom, left-height*/
+
+.paragrafo-box {
+  color:#000;
+  text-align: center;
+}
+
+.div-position {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-bottom: 2px dotted black;
+}
+
+.static{
+  position: static;
+}
+
+.relative {
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 50px;
+}
+
+.absolut {
+  position: absolute;
+  background-color: purple;
+  right: 0;
+  top: 0;
+}
+
+.mini-div {
+  height: 50px;
+  width: 50px;
+  top: 50px;
+  left: 100px;
+}
+ .fixed {
+   position: fixed;
+   height: 200px;
+   background-color: yellow;
+   bottom: 0;
+   right: 0;
+ }
+ 
+ .sticky {
+   position: sticky;
+   background-color: green;
+   top: 10px;
+ }
+ 
+ .h1-titulo {
+   color: #000;
+ }
+ 
+ .container {
+   padding: 50px;
+ }
+ 
+ .div-float {
+   overflow: auto;
+ }
+ 
+ .img-lambor {
+   width: 250px;
+   height: 150px;
+   float: left;
+ }
+ .p-lambor {
+   color: #000;
+ }
+ 
+ .img-lancer {
+   width: 200px;
+   float: right;
+ }
+ 
+ .p-lancer {
+   color: #000;
+ }
+ 
+ .img-bugatti {
+   width: 200px;
+   float: left;
+ }
+ .p-bugatti {
+   color: #000;
+   clear: both;
+ }
+ 
+ .float-right {
+   float: right;
+ }
+
+.pixel {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.pixel2 {
+  background-color: blue;
+  width: 500px;
+  height: 50px;
+}
+
+.pai-porcentagem {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}
+
+.porcentagem-1 {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+
+.porcentagem-2 {
+  width: 50%;
+  height: 50%;
+  background-color: purple;
+}
+
+.pai-em {
+  font-size: 50px;
+}
+
+.em-1 {
+  width: 2em;
+  height: 2em;
+  background-color: orange;
+}
+
+html {
+  font-size: 20px;
+}
+
+.rem-1 {
+  width: 1rem;
+  height: 1rem;
+  background-color: gray;
+}
+
+.rem-2 {
+  font-size: 2rem;
+}

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #bbb;
+}
+
+p {
+  text-align: justify;
+}
+.container {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
+}
+
+.cabecalho h1 {
+  text-align: center;
+  padding: 10px 0px 15px 0px;
+}
+
+.paragrafo-principal {
+  text-align: center;
+  padding-bottom: 15px;
+  font-style: italic;
+}
+
+img {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+}
+
+figure {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.biografia-container h2 {
+margin: 20px 0px 10px 0px;
+}
+
+.destaque  {
+  font-weight: bold;
+}
+
+.borda-paragrafo {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+.frase-container {
+  background-color: #bbbbbb;
+  padding: 30px;
+  margin-bottom: 25px;
+} 
+
+.frase-container p {
+  position: relative;
+  margin: 0px;
+  top: 20px;
+  left: -22px;
+  font-size: 14px;
+}
+
+blockquote {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.curiosidades-container {
+  border-top: 1px dashed rgba(0, 0, 0, 0.4);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 25px;
+}
+
+.curiosidades-container h2 {
+  padding-bottom: 5px;
+}
+
+.curiosidades-container ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.curiosidades-container li {
+  padding: 5px 0px;
+}
+
+.img-destaque {
+  border-top: 1px dashed rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+}
+
+.biografia-container {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #fff;
+}
+
+footer p {
+  text-align: center;
+  padding: 5px;
+}
