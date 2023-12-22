@@ -1,101 +1,109 @@
+@charset "UTF-8";
+
 * {
   margin: 0px;
   padding: 0px;
 }
+
 body {
-  background-color: #F0EBF8;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebebeb;
 }
 
-.header {
-  background-color: #673AB7;
-  height: 140px;
+header {
+  background-color: rgb(105, 2, 214);
+  height: 165px;
+  color: #fff;
+}
+
+header h3 {
   padding: 20px;
 }
 
-.header h3 {
-  color: #fff;
-}
-
-.form-container {
-  position: relative;
-  top: -66px;
+main {
+  width: 70%;
   background-color: #fff;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form-header {
-  border-bottom: 2px solid #ddd;
-  height: 45px;
-}
-
-.form-header p {
-  color: #673AB7;
-  border-bottom: 2px solid #673AB7;
-  height: 46px;
-  width: 100px;
   margin: auto;
+  position: relative;
+  top: -50px;
+}
+
+.cabecalho {
+  border-bottom: 2px solid #ddd;
+  color: rgb(105, 2, 214);
+  height: 49px;
+}
+
+.title1 {
   text-align: center;
+  border-bottom: 2px solid rgb(105, 2, 214);
+  width: 100px;
+  height: 49px;
+  margin: auto;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 49px;
 }
 
-.form-body {
-  padding: 30px;
+.conteudo {
+  padding: 25px;
 }
 
-.form-body p {
-  margin: 15px 0px 15px 0px;
+.conteudo h1 {
+  margin-bottom: 15px;
 }
 
-.form-title {
-  margin: 0;
+.conteudo p {
+  margin: 15px 0px;
 }
 
-.required-field {
+span {
   color: red;
 }
 
-.box-input {
-  margin-bottom: 60px;
-  padding: 15px 0px 10px 0px;
-}
-
-.block {
+.bloco {
   display: block;
-}
-
-input {
-  border-style: none;
-  border-bottom: 1px solid #bbb;
   padding: 10px 0px;
-  width: 60%;
+  margin-bottom: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bbb;
 }
 
-#purchase_date {
-  background-color: #ddd;
+textarea {
+  display: block;
+  width: 100%;
 }
 
-.optional_box {
-  display: inline-block;
+textarea::placeholder {
+  padding: 10px;
 }
 
-.optional_list {
+#unico-dono {
+  margin: 30px 0px;
+}
+
+.radio {
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: inside;
   list-style: none;
-  margin-left: 0px;
+  display: inline-block;
+  margin-right: 30px;
 }
 
-.btn-submit {
-  background-color: #673AB7;
-  color: #fff;
-  border: 2px solid #673AB7;
+.botao {
+  background-color: rgb(105, 2, 214);
+  padding: 15px 40px;
   text-transform: uppercase;
+  color: #fff;
+  border: none;
 }
 
-.btn-submit:hover {
+.botao:hover {
   background-color: #fff;
-  color: #673AB7;
+  border: 1px solid rgb(105, 2, 214);
+  color: #000;
   transition: 0.5s;
 }
